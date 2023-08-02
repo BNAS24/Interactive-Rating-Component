@@ -1,11 +1,11 @@
 :root {
-  font-family: "Overpass", sans-serif,;
+  font-family: "Overpass", sans-serif;
 }
-
 
 body {
   background-color: #141519;
 }
+
 .container {
   display: flex;
   width: 99%;
@@ -24,8 +24,8 @@ body {
   position: relative;
 }
 
-p { 
-  font-family: "Overpass", sans-serif;;
+p {
+  font-family: "Overpass", sans-serif;
 }
 
 .component1 {
@@ -47,33 +47,28 @@ p {
 
 .secondh {
   color: white;
-  font-family: "Overpass", sans-serif;
   margin-left: 40px;
-  /*border: dotted red;*/
   width: 250px;
 }
 
 .component3 {
-  /*border: dotted yellow;*/
   font-family: "Overpass", sans-serif;
   width: 325px;
   margin-left: 42px;
   margin-bottom: 3px;
 }
+
 .p1 {
   color: lightgrey;
-  /*border: dotted lightgreen;*/
   width: 323px;
   font-size: 15px;
 }
 
 .container2 {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   gap: -10px;
   align-items: center;
-  /*border: dotted red;*/
   width: 100%;
   height: auto;
   margin-top: 10px;
@@ -89,17 +84,9 @@ p {
   margin-right: 0; /* remove the gap on the last item */
 }
 
-/* Below is commented out and the function is being used by individual components
-
-.container2:hover {
-  cursor: pointer;
-}
-*/
-
-.crc1 {
+.crc {
   width: 50px;
   height: 50px;
-  background-color: white;
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   display: flex;
@@ -107,79 +94,9 @@ p {
   align-items: center;
 }
 
-.crc1:hover {
+.crc:hover {
   background-color: grey;
   cursor: pointer;
-}
-
-.crc2 {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.crc2:hover {
-  background-color: grey;
-  cursor: pointer;
-}
-
-.crc3 {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.crc3:hover {
-  background-color: grey;
-  cursor: pointer;
-}
-
-.crc4 {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.crc4:hover {
-  background-color: grey;
-  cursor: pointer;
-}
-.crc5 {
-  width: 50px;
-  height: 50px;
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.crc5:hover {
-  background-color: grey;
-  cursor: pointer;
-}
-
-#crcp {
-  color: white;
-  font-family: "Overpass", sans-serif;
-  font-size: 1.2em;
-  font-weight: 400px;
 }
 
 .crc.selected {
@@ -190,13 +107,12 @@ p {
   background-color: orange;
   border-radius: 30px;
   border: none;
-  /*border: dotted yellow;*/
   width: 330px;
   height: 50px;
   margin-left: 39px;
   margin-top: 20px;
   color: white;
-  font-family: "Overpass", Sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 1.2em;
   letter-spacing: 0.2em;
 }
