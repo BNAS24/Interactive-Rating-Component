@@ -24,6 +24,10 @@ body {
   position: relative;
 }
 
+p { 
+  font-family: sans-serif;
+}
+
 .component1 {
   display: flex;
   width: 50px;
