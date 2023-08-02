@@ -1,4 +1,7 @@
-/*remove (or 'comment' out) all borders once you complete the basic of the code*/
+* {
+  font-family: "Overpass", sans-serif;
+}
+
 
 body {
   background-color: #141519;
