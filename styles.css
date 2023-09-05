@@ -9,7 +9,7 @@ body {
 .container {
   display: flex;
   width: 99%;
-  height: 800px;
+  height: 99vh;
   justify-content: center;
   align-items: center;
   border: dotted yellow 5px;
